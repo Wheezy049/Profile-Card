@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.profile-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.profile-card h2, .profile-card p {
+    margin: 10px 0;
+}
+.social-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+}
